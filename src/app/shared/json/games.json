@@ -1,0 +1,17 @@
+{
+  "novidades": [{
+    "id": "01",
+    "nome": "God of War Ragnarok",
+    "youTubeLink": "https://www.youtube.com/watch?v=EE-4GvjKcfs&ab_channel=PlayStation"
+  }],
+  "atuais": [{
+    "id": "01",
+    "nome": "The Last of Us",
+    "youTubeLink": "https://www.youtube.com/watch?v=qPNiIeKMHyg&ab_channel=GameNews"
+  }],
+  "classicos": [{
+    "id": "01",
+    "nome": "Sonic",
+    "youTubeLink": "https://www.youtube.com/watch?v=Stqo8KmTz2A&ab_channel=SegaAmerica"
+  }]
+}
