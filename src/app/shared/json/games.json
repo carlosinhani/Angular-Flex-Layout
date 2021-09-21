@@ -3,7 +3,14 @@
     "id": "01",
     "nome": "God of War Ragnarok",
     "youTubeLink": "https://www.youtube.com/watch?v=EE-4GvjKcfs&ab_channel=PlayStation"
-  }],
+  },
+  {
+    "id": "02",
+    "nome": "Horizon Forbidden West",
+    "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
+  }
+
+],
   "atuais": [{
     "id": "01",
     "nome": "The Last of Us",
