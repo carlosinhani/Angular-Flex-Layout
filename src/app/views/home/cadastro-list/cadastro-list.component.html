@@ -1,29 +1,31 @@
-<mat-tab-group mat-align-tabs="start">
+<mat-tab-group class="mat-tab-group">
   <mat-tab label="Novidades do Mundos Games">
-    <div fxLayout="row" fxLayoutAlign="start center" class="flexlayout">
-      <div class="card">
-        <mat-card class="example-card"
-        fxFlex="0 1 calc(33.3% - 11px)"
-         fxFlex.lt-md="0 1 calc(50% - 11px)"
-          fxFlex.lt-sm="100%">
-          <mat-card-header>
-          </mat-card-header>
+    <div fxLayout="row wrap" fxLayoutAlign="start center" class="forma">
+      <ng-container *ngFor="let novidades of jogosNovos" class="card">
+
+        <mat-card class="example-card" fxFlex=" 0 1 calc(33.3% - 11px)" fxFlex.lt-md="0 1 calc(50% - 11px)"
+        fxFlex.lt-sm="100%">
+
+          <mat-card-title class="mat-card.title">
+             <div class="row">
+               <p>
+                 <span class="spanNome" fxFlex="70" fxLayoutAling="start center">{{novidades.nome}}</span>
+                 <span fxFlex></span>
+                 <span class="spanDesenv" fxFlex="25" fxLayoutAling="end center">{{novidades.desenvolvedora}}</span>
+               </p>
+                  <p class="spanGenero">
+                    Gênero: <span>{{ novidades.genero }}</span>
+                  </p>
+             </div>
+          </mat-card-title>
+
           <mat-card-content>
             <p>
-              Ao longo da era grega da série, Kratos embarca em várias aventuras na tentativa de evitar o desastre ou
-              mudar seu destino. Ele geralmente era retratado como alheio a tudo e de natureza arrogante. Muitas vezes
-              ele se envolveu em atividades moralmente ambíguas e realizou atos de extrema violência. Como um guerreiro
-              espartano, ele se tornou o "Fantasma de Esparta" depois de acidentalmente matar sua família devido aos
-              truques de Ares. Mais tarde, ele vinga a morte de sua família e se torna o deus da guerra depois de matar
-              Ares. Posteriormente é revelado que ele é um semideus, o filho de Zeus, que mais tarde traiu Kratos. A
-              vingança era o tema central da era grega, e cada título fornecia informações adicionais sobre as origens
-              de Kratos e suas relações com sua família e os deuses do Olimpo. Na era nórdica da série, Kratos dá uma
-              reviravolta para o bem e encontra-se controlando sua raiva e aprendendo a ser verdadeiramente pai de seu
-              filho, Atreus, enquanto combate contra monstros e deuses do reino nórdico.
+              Carlos Rodrigo
             </p>
           </mat-card-content>
         </mat-card>
-      </div>
+      </ng-container>
     </div>
   </mat-tab>
   <mat-tab label="Games Atuais">Games Atuais</mat-tab>

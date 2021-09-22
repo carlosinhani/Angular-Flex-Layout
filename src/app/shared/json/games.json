@@ -2,23 +2,62 @@
   "novidades": [{
     "id": "01",
     "nome": "God of War Ragnarok",
+    "genero": "Ação aventura Hack and slash",
+    "desenvolvedora":"Santa Monica Studio",
     "youTubeLink": "https://www.youtube.com/watch?v=EE-4GvjKcfs&ab_channel=PlayStation"
   },
   {
     "id": "02",
     "nome": "Horizon Forbidden West",
+    "genero": "RPG de ação",
+    "desenvolvedora":"Lamber Mulher",
+    "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
+  },
+  {
+    "id": "03",
+    "nome": "Horizon Forbidden West",
+    "genero": "RPG de ação",
+    "desenvolvedora":"Lamber Mulher",
+    "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
+  },{
+    "id": "04",
+    "nome": "Horizon Forbidden West",
+    "genero": "RPG de ação",
+    "desenvolvedora":"Lamber Mulher",
+    "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
+  },
+  {
+    "id": "05",
+    "nome": "Horizon Forbidden West",
+    "genero": "RPG de ação",
+    "desenvolvedora":"Lamber Mulher",
+    "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
+  },
+  {
+    "id": "06",
+    "nome": "Horizon Forbidden West",
+    "genero": "RPG de ação",
+    "desenvolvedora":"Lamber Mulher",
     "youTubeLink": "https://www.youtube.com/watch?v=OpfuQulZHR8&ab_channel=MovieCoverage"
   }
+
+
+
+
 
 ],
   "atuais": [{
     "id": "01",
     "nome": "The Last of Us",
+    "genero": "Ação aventura Hack e sobrevivência",
+    "desenvolvedora":"Naughty Dog",
     "youTubeLink": "https://www.youtube.com/watch?v=qPNiIeKMHyg&ab_channel=GameNews"
   }],
   "classicos": [{
     "id": "01",
     "nome": "Sonic",
+    "genero": "Plataforma 2D",
+    "desenvolvedora":"Sega",
     "youTubeLink": "https://www.youtube.com/watch?v=Stqo8KmTz2A&ab_channel=SegaAmerica"
   }]
 }
